@@ -29,12 +29,12 @@ p {
     overflow: hidden;
     margin: auto;
     background-color: #e4e4e4;
-    padding-bottom: 2em;
 }
 
 main {
     overflow: auto;
 }
+
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -80,7 +80,6 @@ nav li {
 
 #story {
     background-color: #ffffff;
-    background-image: url(img/background.jpg);
     margin: 0.5em 2em 0 2em;
     padding: 1em;
 }
@@ -97,7 +96,23 @@ nav li {
 }
 
 #story-image {
-    width: 100%
+    width: 100%;
+}
+
+aside {
+    padding: 1em;
+    background-color: #158c03;
+    margin: 0.5em 2em 0 2em;
+}
+
+aside h1,
+aside h2 {
+    margin-top: 0;
+    color: #010440;
+}
+
+.images {
+    width: 100%;
 }
 
 footer {
@@ -130,13 +145,9 @@ footer a:hover {
     }
 }
 
-.images {
-    width: calc(100% - 4em);
-    margin: 0.5em 2em 0 2em;
-}
 
 @media all and (min-width: 750px) {
-    .images {
+    aside {
         width: 31%;
         float: right;
         margin: 0 2em 0.5em 0;
