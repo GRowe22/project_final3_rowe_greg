@@ -48,63 +48,79 @@ header {
 }
 
 #logo {
-    max-width: 200px;
+    max-width: 250px;
     display: block;
     margin: auto;
 }
 
-#color-swatches {
-    padding: 1em;
-    margin: auto;
+nav {
+    background-color: #ee582b;
+    padding: 0.25em;
+    text-align: center;
 }
 
-#color-swatches li {
-    list-style-type: none;
-    width: calc(100% / 7);
-    padding-bottom: calc(100% / 8);
-    margin: 0 2%;
+nav a {
+    font-family: 'Wendy One', sans-serif;
+    font-size: 24pt;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+nav li {
     display: inline-block;
+    padding: 0 calc(100% / 16);
 }
 
-#color-1 {
-    background-color: #010440;
-}
-
-#color-2 {
-    background-color: #010326;
-}
-
-#color-3 {
-    background-color: #158c03;
-}
-
-#color-4 {
-    background-color: #f2561d;
-}
-
-#color-5 {
-    background-color: #8c1818;
-}
-
-#text-sample {
+#story {
     background-color: #ffffff;
-    margin: 0 2em;
+    background-image: url(img/background.jpg);
+    margin: 0.5em 2em 0 2em;
     padding: 1em;
 }
 
-#text-sample a {
+#story a {
     font-style: italic;
     font-weight: 600;
     text-decoration: none;
     color: #f2561d;
 }
 
-#text-sample a:hover {
+#story a:hover {
     text-decoration: underline;
 }
 
+#story-image {
+    width: 100%
+}
+
+footer {
+    text-align: center;
+    padding: 0.25em;
+    background-color: #010440;
+}
+
+#footer-text {
+    display: block;
+    color: #158c03;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: #158c03;
+}
+
+footer a:hover {
+    opacity: 0.7;
+}
+
 @media all and (min-width: 750px) {
-    #text-sample {
+    #story {
         width: 40%;
         float: left;
         margin: 0 0 0.5em 2em;
