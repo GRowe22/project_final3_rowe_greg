@@ -111,6 +111,10 @@ aside h2 {
     color: #010440;
 }
 
+.zero-bottom {
+    margin-bottom: 0;
+}
+
 .images {
     width: 100%;
 }
