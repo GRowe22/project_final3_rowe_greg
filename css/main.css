@@ -78,20 +78,20 @@ nav li {
     padding: 0 calc(100% / 16);
 }
 
-#story {
+#info {
     background-color: #ffffff;
     margin: 0.5em 0 0 0;
     padding: 1em;
 }
 
-#story a {
+#info a {
     font-style: italic;
     font-weight: 600;
     text-decoration: none;
     color: #f2561d;
 }
 
-#story a:hover {
+#info a:hover {
     text-decoration: underline;
 }
 
@@ -142,7 +142,7 @@ footer a:hover {
 }
 
 @media all and (min-width: 799px) {
-    #story {
+    #info {
         width: 60%;
         float: left;
         margin: 0.5em 0.5em 0.5em 2em;
