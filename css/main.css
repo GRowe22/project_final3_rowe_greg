@@ -56,24 +56,24 @@ header {
     margin: auto;
 }
 
-nav {
+#navigation {
     background-color: #ee582b;
     padding: 0.25em;
     text-align: center;
 }
 
-nav a {
+#navigation a {
     font-family: 'Wendy One', sans-serif;
     font-size: 24pt;
     color: white;
     text-decoration: none;
 }
 
-nav a:hover {
+#navigation a:hover {
     opacity: 0.5;
 }
 
-nav li {
+#navigation li {
     display: inline-block;
     padding: 0 calc(100% / 16);
 }
@@ -159,5 +159,11 @@ footer a:hover {
         width: 31%;
         float: right;
         margin: 0.5em 2em 0.5em 0;
+    }
+}
+
+@media all and (min-width: 1000px) {
+    .site-container {
+        width: 100%;
     }
 }
