@@ -80,7 +80,7 @@ nav li {
 
 #story {
     background-color: #ffffff;
-    margin: 0.5em 0em 0 0em;
+    margin: 0.5em 0 0 0;
     padding: 1em;
 }
 
@@ -102,7 +102,7 @@ nav li {
 aside {
     padding: 1em;
     background-color: #158c03;
-    margin: 0.5em 0em 0.5em 0em;
+    margin: 0.5em 0 0.5em 0;
 }
 
 aside h1,
@@ -141,7 +141,7 @@ footer a:hover {
     width: 40px;
 }
 
-@media all and (min-width: 750px) {
+@media all and (min-width: 799px) {
     #story {
         width: 60%;
         float: left;
@@ -150,9 +150,9 @@ footer a:hover {
 }
 
 
-@media all and (min-width: 750px) {
+@media all and (min-width: 799px) {
     aside {
-        width: 30%;
+        width: 31%;
         float: right;
         margin: 0.5em 2em 0.5em 0;
     }
