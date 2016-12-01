@@ -66,6 +66,7 @@ header {
     font-size: 24pt;
     color: white;
     text-decoration: none;
+    padding: 0.25em;
 }
 
 #navigation a:hover {
