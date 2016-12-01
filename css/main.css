@@ -25,7 +25,6 @@ p {
 }
 
 .site-container {
-    max-width: 1200px;
     overflow: hidden;
     margin: auto;
     background-color: #e4e4e4;
@@ -156,14 +155,20 @@ footer a:hover {
 
 @media all and (min-width: 799px) {
     aside {
-        width: 31%;
+        width: 30%;
         float: right;
         margin: 0.5em 2em 0.5em 0;
     }
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 992px) {
     .site-container {
-        width: 100%;
+        width: 940px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .site-container {
+        width: 1200px;
     }
 }
