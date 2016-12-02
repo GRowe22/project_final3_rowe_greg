@@ -73,11 +73,6 @@ header {
     opacity: 0.5;
 }
 
-#navigation li {
-    display: inline-block;
-    padding: 0 calc(100% / 16);
-}
-
 #info {
     background-color: #ffffff;
     margin: 0.5em 0 0 0;
@@ -150,6 +145,10 @@ footer a:hover {
         width: 60%;
         float: left;
         margin: 0.5em 0.5em 0.5em 2em;
+    }
+
+    #navigation li {
+        width: calc(100% / 3);
     }
 }
 
