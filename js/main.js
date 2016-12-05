@@ -8,3 +8,8 @@ $('#navigation').slimmenu(
         indentChildren: false,
         childrenIndenter: '&nbsp;'
     });
+
+//Sticky Element
+$(document).ready(function () {
+    $('#sticker').sticky({topSpacing: 0});
+});
