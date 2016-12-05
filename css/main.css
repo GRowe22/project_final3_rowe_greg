@@ -77,20 +77,23 @@ header {
     padding: 0 calc(100% / 20);
 }
 
-#info {
+#info,
+#menu {
     background-color: #ffffff;
     margin: 0.5em 0 0 0;
     padding: 1em;
 }
 
-#info a {
+#info a,
+#menu a {
     font-style: italic;
     font-weight: 600;
     text-decoration: none;
     color: #f2561d;
 }
 
-#info a:hover {
+#info a:hover,
+#menu a:hover {
     text-decoration: underline;
 }
 
@@ -110,8 +113,14 @@ aside h2 {
     color: #010440;
 }
 
+#menu h1,
+#menu h2,
 .zero-bottom {
-    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.menu-item h3 {
+    padding-top: 10px;
 }
 
 .images {
@@ -145,7 +154,8 @@ footer a:hover {
 }
 
 @media all and (min-width: 799px) {
-    #info {
+    #info,
+    #menu {
         width: 60%;
         float: left;
         margin: 0.5em 0.5em 0.5em 2em;
