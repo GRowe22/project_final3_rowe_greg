@@ -116,7 +116,8 @@ aside h2 {
 
 #menu h2,
 .menu-item h3,
-.menu-item p {
+.menu-item p,
+.narrow-spacing {
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
     -webkit-margin-start: 0;
