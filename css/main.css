@@ -120,8 +120,11 @@ aside h2 {
 .narrow-spacing {
     -webkit-margin-before: 0;
     -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
+}
+
+#info h2 {
+    -webkit-margin-before: 10px;
+    -webkit-margin-after: 0;
 }
 
 #menu h2 {
