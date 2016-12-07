@@ -19,7 +19,7 @@ $('h1').click(function () {
     $('h1').css('color', '#ee582b');
 });
 
-//Custom JavaScript to add content when h1 clicked
+//Custom JavaScript to add content when h1 (Welcome to Pizza Planet) clicked
 var heading = document.getElementById('click-h1');
 
 function addElement() {
